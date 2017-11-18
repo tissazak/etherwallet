@@ -40,7 +40,7 @@ var globalService = function($http, $httpParamSerializerJQLike) {
     id: 4,
     name: "NAV_Swap",
     url: "swap",
-    mew: true,
+    mew: false,
     cx: true
   },
   offlineTransaction: {
@@ -82,7 +82,7 @@ var globalService = function($http, $httpParamSerializerJQLike) {
     id: 10,
     name: "NAV_ViewWallet",
     url: "view-wallet-info",
-    mew: true,
+    mew: false,
     cx: false
   },
   signMsg: {

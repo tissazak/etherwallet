@@ -1,4 +1,4 @@
-<!-- STEP READ/WRITE -->
+<<!-- STEP READ/WRITE -->
 <section class="col-xs-12 clearfix">
 
   <!-- Contract Info CONTRACT_Interact_CTA -->
@@ -23,7 +23,7 @@
         </li>
         <li><strong>Fund EOS Contract on Send Page</strong>
           <ul>
-            <li>Go to Send Ether & Tokens Page</li>
+            <li>Go to Send Nowon page</li>
             <li>Unlock same wallet you are unlocking here.</li>
             <li>Send Amount you want to Contribute to <code>0xd0a6E6C54DbC68Db5db3A091B171A77407Ff7ccf</code></li>
             <li><span translate="TRANS_gas">Gas Limit</span>: at least <code>90000</code></li>

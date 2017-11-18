@@ -30,46 +30,6 @@
       <br>
     </section>
 
-    <section class="block__help">
-
-      <h2>Already have a wallet somewhere?</h2>
-      <ul><li>
-        <p>
-          <strong>Ledger / TREZOR / Digital Bitbox</strong>:
-          <span translate="GEN_Help_1">Use your</span>
-          <a ng-click="globalService.currentTab=globalService.tabs.sendTransaction.id">hardware wallet</a>.
-          <span translate="GEN_Help_3">Your device * is * your wallet.</span>
-        </p>
-      </li></ul>
-
-      <ul><li>
-        <p>
-          <strong>MetaMask</strong>
-          <span>Connect via your</span>
-          <a ng-click="globalService.currentTab=globalService.tabs.sendTransaction.id">MetaMask Extension</a>.
-          <span>So easy! Keys stay in MetaMask, not on a phishing site! Try it today.</span>
-        </p>
-      </li></ul>
-
-      <ul><li>
-        <p>
-          <strong>Jaxx / imToken</strong>
-          <span translate="GEN_Help_1">Use your</span>
-          <a ng-click="globalService.currentTab=globalService.tabs.sendTransaction.id" translate="x_Mnemonic">Mnemonic Phrase</a>
-          <span translate="GEN_Help_2">to access your account.</span>
-        </p>
-      </li></ul>
-
-      <ul><li>
-        <p>
-          <strong>Mist / Geth / Parity:</strong>
-          <span translate="GEN_Help_1">Use your</span>
-          <a ng-click="globalService.currentTab=globalService.tabs.sendTransaction.id" translate="x_Keystore2">Keystore File (UTC / JSON)</a>
-          <span translate="GEN_Help_2">to access your account.</span>
-        </p>
-      </li></ul>
-
-    </section>
 
   </article>
 
@@ -105,16 +65,6 @@
 
     </section>
 
-    <section class="block__help">
-      <h2 translate="GEN_Help_8"> Not Downloading a File? </h2>
-      <ul>
-        <li translate="GEN_Help_9">  Try using Google Chrome </li>
-        <li translate="GEN_Help_10"> Right click &amp; save file as. Filename:</li>
-        <input value="{{encFileName}}" class="form-control input-sm" />
-      </ul>
-
-      <h2 translate="GEN_Help_11">Don't open this file on your computer</h2>
-      <ul><li translate="GEN_Help_12">Use it to unlock your wallet via MyEtherWallet (or Mist, Geth, Parity &amp; other wallet clients.)</li></ul>
 
       <h2 translate="GEN_Help_4">Guides &amp; FAQ</h2>
       <ul>
