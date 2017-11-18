@@ -66,13 +66,6 @@
     </section>
 
 
-      <h2 translate="GEN_Help_4">Guides &amp; FAQ</h2>
-      <ul>
-        <li><a href="https://myetherwallet.github.io/knowledge-base/getting-started/backing-up-your-new-wallet.html" target="_blank" rel="noopener noreferrer"><strong translate="GEN_Help_13">How to Back Up Your Keystore File</strong></a></li>
-        <li><a href="https://myetherwallet.github.io/knowledge-base/private-keys-passwords/difference-beween-private-key-and-keystore-file.html" target="_blank" rel="noopener noreferrer"><strong translate="GEN_Help_14">What are these Different Formats?</a></strong></li>
-      </ul>
-
-    </section>
 
   </article>
 
