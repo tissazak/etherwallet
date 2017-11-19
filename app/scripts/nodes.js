@@ -48,7 +48,7 @@ nodes.nodeList = {
         'blockExplorerAddr': '',
         'type': nodes.nodeTypes.NWN,
         'eip155': true,
-        'chainId': 125,
+        'chainId': 62,
         'tokenList': require('./tokens/ubqTokens.json'),
         'abiList': require('./abiDefinitions/ubqAbi.json'),
         'estimateGas': true,
