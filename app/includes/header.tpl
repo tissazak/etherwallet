@@ -88,7 +88,7 @@
   <section class="container">
     @@if (site === 'mew' ) {
       <a class="brand" href="/" aria-label="Go to homepage">
-        <img src="images/logo-myetherwallet.svg"   height="64px" width="245px" alt="MyEtherWallet" />
+        <img src="images/logo-myetherwallet.png"   height="64px" width="245px" alt="MyEtherWallet" />
       </a>
     }
     @@if (site === 'cx'  ) {
