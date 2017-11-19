@@ -1,10 +1,10 @@
 {
-  "name": "mew-custom",
+  "name": "Nowon",
   "version": "1.1.0",
   "description": "",
   "main": "gulpfile.js",
-  "author": "MyEtherWallet",
-  "license": "ISC",
+  "author": "tissazak",
+  "license": "GPL",
   "scripts": {
     "dev": "gulp",
     "dist": "gulp clean"
