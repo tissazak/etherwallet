@@ -12,7 +12,7 @@ nodes.nodeTypes = {
     Rinkeby: "RINKEBY ETH",
     RSK: "RSK",
     EXP: "EXP",
-    UBQ: "UBQ",
+    NWN: "NWN",
     Custom: "CUSTOM ETH"
 };
 nodes.domainsaleNodeTypes = [nodes.nodeTypes.Ropsten]
@@ -42,18 +42,18 @@ nodes.nodeList = {
         'service': 'MyEtherWallet',
         'lib': new nodes.customNode('https://api.myetherapi.com/eth', '')
     },
-    'ubq': {
-        'name': 'UBQ',
-        'blockExplorerTX': 'https://ubiqscan.io/en/tx/[[txHash]]',
-        'blockExplorerAddr': 'https://ubiqscan.io/en/address/[[address]]',
-        'type': nodes.nodeTypes.UBQ,
+    'nwn': {
+        'name': 'NWN',
+        'blockExplorerTX': '',
+        'blockExplorerAddr': '',
+        'type': nodes.nodeTypes.NWN,
         'eip155': true,
-        'chainId': 8,
+        'chainId': 125,
         'tokenList': require('./tokens/ubqTokens.json'),
         'abiList': require('./abiDefinitions/ubqAbi.json'),
         'estimateGas': true,
-        'service': 'ubiqscan.io',
-        'lib': new nodes.customNode('https://pyrus2.ubiqscan.io', '')
+        'service': 'localhost',
+        'lib': new nodes.customNode('http://127.0.0.1:8545', '')
     }
 };
 
