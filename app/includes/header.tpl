@@ -3,20 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>MyEtherWallet.com</title>
-<meta property="og:title" content="MyEtherWallet.com: Your Key to Ethereum">
-<meta property="og:site_name" content="MyEtherWallet.com: Your Key to Ethereum">
-<meta name="twitter:title" content="MyEtherWallet.com: Your Key to Ethereum">
-<meta name="apple-mobile-web-app-title" content="MyEtherWallet.com: Your Key to Ethereum">
-<link href="https://www.myetherwallet.com" rel="canonical">
+<title>Nowon wallet</title>
+<meta property="og:title" content="Nowon wallet: Your Key to Nowon">
+<meta property="og:site_name" content="Nowon wallet: Your Key to Nowon">
+<meta name="twitter:title" content="Nowon wallet: Your Key to Nowon">
+<meta name="apple-mobile-web-app-title" content="Nowon wallet: Your Key to Nowon">
+<link href="http://localhost" rel="canonical">
 <meta content="https://www.myetherwallet.com" property="og:url">
 <meta content="https://www.myetherwallet.com" name="twitter:url">
 <link rel="stylesheet" href="css/etherwallet-master.min.css">
 <script type="text/javascript" src="js/etherwallet-static.min.js"></script>
 <script type="text/javascript" src="js/etherwallet-master.js"></script>
-<meta name="description" content="MyEtherWallet (MEW) is a free, open-source, client-side interface for generating Ethereum wallets & more. Interact with the Ethereum blockchain easily & securely.">
-<meta property="og:description"  content="Free, open-source, client-side Ethereum wallet. Enabling you to interact with the blockchain easily & securely.">
-<meta name="twitter:description" content="Free, open-source, client-side Ethereum wallet. Enabling you to interact with the blockchain easily & securely.">
+<meta name="description" content="MyEtherWallet (MEW) is a free, open-source, client-side interface for generating Nowon wallets & more. Interact with the Nowon blockchain easily & securely.">
+<meta property="og:description"  content="Free, open-source, client-side Nowon wallet. Enabling you to interact with the blockchain easily & securely.">
+<meta name="twitter:description" content="Free, open-source, client-side Nowon wallet. Enabling you to interact with the blockchain easily & securely.">
 <meta name="robots" content="index,follow">
 <meta name="googlebot" content="index,follow">
 <meta name="google-site-verification" content="IpChQ00NYUQuNs_7Xs6xlnSdzalOlTUYbBsr8f7OpvM" />
@@ -26,13 +26,13 @@
 <link href="images/fav/manifest.json" rel="manifest">
 <link href="images/fav/safari-pinned-tab.svg" rel="mask-icon" color="#2f99b0">
 <link href="images/fav/favicon.ico" rel="shortcut icon">
-<meta name="apple-mobile-web-app-title" content="MyEtherWallet &middot; Your Key to Ethereum">
+<meta name="apple-mobile-web-app-title" content="MyEtherWallet &middot; Your Key to Nowon">
 <meta name="application-name" content="MyEtherWallet">
 <meta name="msapplication-config" content="images/fav/browserconfig.xml">
 <meta name="theme-color" content="#1d6986">
 <meta name="apple-mobile-web-app-status-bar-style" content="#1d6986">
 <meta property="og:url" content="https://www.myetherwallet.com" />
-<meta property="og:title" content="MyEtherWallet.com  &middot; Your Key to Ethereum" />
+<meta property="og:title" content="Nowon wallet  &middot; Your Key to Nowon" />
 <meta property="og:type" content="website">
 <meta property="og:image" content="/images/myetherwallet-logo-banner.png" />
 <meta property="og:image" content="/images/myetherwallet-logo.png" />
@@ -56,7 +56,7 @@
   "contactType" : "customer service"
 }],
 "logo" : "{{base_url}}images/myetherwallet-logo.png",
-"description": "MyEtherWallet.com is a free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely.",
+"description": "Nowon wallet is a free, open-source, client-side interface for generating Nowon wallets &amp; more. Interact with the Nowon blockchain easily &amp; securely.",
 "sameAs" : [
   "https://www.myetherwallet.com/",
   "https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm",
