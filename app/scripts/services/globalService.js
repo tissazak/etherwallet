@@ -61,8 +61,8 @@ var globalService = function($http, $httpParamSerializerJQLike) {
     id:7,
     name: "NAV_ENS",
     url: "ens",
-    mew: true,
-    cx: true
+    mew: false,
+    cx: false
   },
   domainsale: {
     id: 8,
