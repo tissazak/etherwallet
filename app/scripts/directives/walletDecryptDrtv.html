@@ -7,71 +7,6 @@
       Select the format of your private key:
     </h4>
 
-    <!-- MetaMask -->
-    <label class="radio">
-      <input aria-flowto="aria3"
-             type="radio"
-             aria-label="MetaMask / Mist"
-             ng-model="walletType"
-             value="metamask" />
-      <span translate="x_MetaMask">
-      MetaMask / Mist
-      </span>
-      <a href="https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-metamask.html"
-         target="_blank"
-         rel="noopener noreferrer">
-            <img src="images/icon-help-3.svg" width="16px" height="16px" style="margin: 0 5px 5px">
-      </a>
-    </label>
-
-    <!-- Ledger -->
-    <label class="radio"
-           ng-show="ajaxReq.type=='ETH'||ajaxReq.type=='ETC'||ajaxReq.type=='ROPSTEN ETH'||ajaxReq.type=='RINKEBY ETH'||ajaxReq.type=='KOVAN ETH'||ajaxReq.type=='EXP'||ajaxReq.type=='UBQ'">
-      <input aria-flowto="aria2"
-             type="radio"
-             aria-label="Ledger Wallet hardware wallet"
-             ng-model="walletType"
-             value="ledger"/>
-      Ledger Wallet
-      <a href="https://ledger.zendesk.com/hc/en-us/articles/115005200009-How-to-use-MyEtherWallet-with-Ledger"
-         target="_blank"
-         rel="noopener noreferrer">
-        <img src="images/icon-help-3.svg" width="16px" height="16px" style="margin: 0 5px 5px">
-      </a>
-    </label>
-
-    <!-- TREZOR -->
-    <label class="radio"
-           ng-show="ajaxReq.type=='ETH'||ajaxReq.type=='ETC'||ajaxReq.type=='ROPSTEN ETH'||ajaxReq.type=='RINKEBY ETH'||ajaxReq.type=='KOVAN ETH'||ajaxReq.type=='EXP'||ajaxReq.type=='UBQ'">
-      <input aria-flowto="aria6"
-             type="radio"
-             aria-label="Trezor hardware wallet"
-             ng-model="walletType"
-             value="trezor" />
-      TREZOR
-      <a href="https://doc.satoshilabs.com/trezor-apps/mew.html"
-         target="_blank"
-         rel="noopener noreferrer">
-        <img src="images/icon-help-3.svg" width="16px" height="16px" style="margin: 0 5px 5px">
-      </a>
-    </label>
-
-    <!-- Digital Bitbox -->
-    <label class="radio" ng-show="ajaxReq.type=='ETH'||ajaxReq.type=='ETC'||ajaxReq.type=='ROPSTEN ETH'||ajaxReq.type=='RINKEBY ETH'||ajaxReq.type=='KOVAN ETH'||ajaxReq.type=='EXP'">
-      <input aria-flowto="aria7"
-             type="radio"
-             aria-label="Digital Bitbox hardware wallet"
-             ng-model="walletType"
-             value="digitalBitbox"/>
-      Digital Bitbox
-      <a href="https://digitalbitbox.com/ethereum"
-         target="_blank"
-         rel="noopener noreferrer">
-        <img src="images/icon-help-3.svg" width="16px" height="16px" style="margin: 0 5px 5px">
-      </a>
-    </label>
-
-
     <!-- Keystore / JSON File -->
     <label class="radio">
       <input aria-flowto="aria1"
@@ -121,44 +56,8 @@
       </a>
     </label>
 
-    <!-- Parity -->
-    <label class="radio" style="display: none;" id="showMeTheMoney">
-      <input aria-flowto="aria8"
-             aria-label="parity phrase"
-             type="radio"
-             ng-model="walletType"
-             value="parityBWallet" />
-      <span translate="x_ParityPhrase">
-        Parity Phrase
-      </span>
-    </label>
-
-    <label aria-flowto="aria9" class="radio">
-      &nbsp;
-      <span translate="x_ParityPhrase">
-        Parity Phrase
-      </span>
-      <a href="https://myetherwallet.github.io/knowledge-base/private-keys-passwords/parity-phrases-are-no-longer-supported.html"
-         target="_blank"
-         rel="noopener noreferrer">
-           <img src="images/icon-help-3.svg" width="16px" height="16px" style="margin: 0 5px 5px">
-      </a>
-    </label>
-
-    <label aria-flowto="aria7"
-           class="radio"
-           ng-show="globalService.currentTab==globalService.tabs.sendTransaction.id || globalService.currentTab==globalService.tabs.viewWalletInfo.id">
-      <input aria-flowto="aria8"
-             aria-label="address"
-             type="radio"
-             ng-model="walletType"
-             value="addressOnly" />
-        View Balance Only (Must use one of above options to send)
-    </label>
-
   </section>
   <!-- Column 1 - Select Type of Key -->
-
 
   <!-- Column 2 - Unlock That Key -->
   <section class="col-md-4 col-sm-6">
