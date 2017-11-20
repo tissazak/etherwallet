@@ -30,18 +30,6 @@ nodes.customNodeObj = {
     'lib': null
 };
 nodes.nodeList = {
-    'eth_mew': {
-        'name': 'ETH',
-        'blockExplorerTX': 'https://etherscan.io/tx/[[txHash]]',
-        'blockExplorerAddr': 'https://etherscan.io/address/[[address]]',
-        'type': nodes.nodeTypes.ETH,
-        'eip155': true,
-        'chainId': 1,
-        'tokenList': require('./tokens/ethTokens.json'),
-        'abiList': require('./abiDefinitions/ethAbi.json'),
-        'service': 'MyEtherWallet',
-        'lib': new nodes.customNode('https://api.myetherapi.com/eth', '')
-    },
     'nwn': {
         'name': 'NWN',
         'blockExplorerTX': '',
@@ -54,6 +42,18 @@ nodes.nodeList = {
         'estimateGas': true,
         'service': 'localhost',
         'lib': new nodes.customNode('http://127.0.0.1:8545', '')
+    },
+    'eth_mew': {
+        'name': 'ETH',
+        'blockExplorerTX': 'https://etherscan.io/tx/[[txHash]]',
+        'blockExplorerAddr': 'https://etherscan.io/address/[[address]]',
+        'type': nodes.nodeTypes.ETH,
+        'eip155': true,
+        'chainId': 1,
+        'tokenList': require('./tokens/ethTokens.json'),
+        'abiList': require('./abiDefinitions/ethAbi.json'),
+        'service': 'MyEtherWallet',
+        'lib': new nodes.customNode('https://api.myetherapi.com/eth', '')
     }
 };
 
