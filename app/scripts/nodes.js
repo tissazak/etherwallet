@@ -32,8 +32,8 @@ nodes.customNodeObj = {
 nodes.nodeList = {
     'nwn': {
         'name': 'NWN',
-        'blockExplorerTX': '',
-        'blockExplorerAddr': '',
+        'blockExplorerTX': 'http://35.176.127.196:3000/tx/[[txHash]]',
+        'blockExplorerAddr': 'http://35.176.127.196:3000/addr/[[address]]',
         'type': nodes.nodeTypes.NWN,
         'eip155': true,
         'chainId': '',

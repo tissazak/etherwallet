@@ -289,10 +289,10 @@
       <h5 translate="sidebar_TransHistory"> Transaction History: </h5>
       <ul class="account-info">
         <li>
-          <a href="https://etherscan.io/address/{{wallet.getAddressString()}}"
+          <a href="http://35.176.127.196:3000/addr/{{wallet.getAddressString()}}"
              target="_blank"
              rel="noopener noreferrer">
-               https://etherscan.io/address/ {{wallet.getAddressString()}}
+               http://35.176.127.196:3000/addr/ {{wallet.getAddressString()}}
           </a>
         </li>
       </ul>

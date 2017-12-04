@@ -32,7 +32,7 @@
 
     <div class="cont-md" ng-show="txInfo.status == txStatus.mined">
       <h3 class="text-success" translate="tx_FoundOnChain"> Transaction Found </h3>
-      <h5> <a href="https://etherscan.io/tx/{{ tx.hash }}" target="_blank" rel="noopener noreferrer"> {{ tx.hash }} </a> </h5>
+      <h5> <a href="http://35.176.127.196:3000/tx/{{ tx.hash }}" target="_blank" rel="noopener noreferrer"> {{ tx.hash }} </a> </h5>
       <p><strong translate="tx_FoundOnChain_1"></strong></p>
       <ul>
         <li translate="tx_FoundOnChain_2"></li>
@@ -66,15 +66,15 @@
       <tbody>
         <tr>
           <td translate="x_TxHash">TX Hash</td>
-          <td><a href="https://etherscan.io/tx/{{ txInfo.hash }}" target="_blank" rel="noopener noreferrer"> {{ txInfo.hash }} </a></td>
+          <td><a href="http://35.176.127.196:3000/tx/{{ txInfo.hash }}" target="_blank" rel="noopener noreferrer"> {{ txInfo.hash }} </a></td>
         </tr>
         <tr>
           <td translate="OFFLINE_Step1_Label_1">From Address</td>
-          <td><a href="https://etherscan.io/address/{{ txInfo.from }}" target="_blank" rel="noopener noreferrer"> {{ txInfo.from }} </a></td>
+          <td><a href="http://35.176.127.196:3000/addr/{{ txInfo.from }}" target="_blank" rel="noopener noreferrer"> {{ txInfo.from }} </a></td>
         </tr>
         <tr>
           <td translate="OFFLINE_Step2_Label_1">To Address</td>
-          <td><a href="https://etherscan.io/address/{{ txInfo.to }}" target="_blank" rel="noopener noreferrer"> {{ txInfo.to }} </a></td>
+          <td><a href="http://35.176.127.196:3000/addr/{{ txInfo.to }}" target="_blank" rel="noopener noreferrer"> {{ txInfo.to }} </a></td>
         </tr>
         <tr>
           <td translate="SEND_amount_short">Amount</td>
